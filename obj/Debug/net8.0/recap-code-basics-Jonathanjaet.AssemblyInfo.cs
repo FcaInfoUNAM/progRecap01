@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("recap-code-basics-Jonathanjaet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e465c28a355197cb4dd40e9ba25c0d62edfb0c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26abad15acbd1361b66447a6219fa3683fefa2bb")]
 [assembly: System.Reflection.AssemblyProductAttribute("recap-code-basics-Jonathanjaet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("recap-code-basics-Jonathanjaet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
