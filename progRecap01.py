@@ -11,9 +11,9 @@ for i in range(1,10):
         print(f"{i} no es par")
 
 ##for loop?
-# for i in array:
-#     if(i%2!=0):
-#         print(f"{i} no es par")
+for i in array:
+    if(i%2!=0):
+        print(f"{i} no es par")
 
 #python and switch and read options
 # for quality in qualities:
