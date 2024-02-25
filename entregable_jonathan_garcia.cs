@@ -35,38 +35,41 @@ class Program
         }
 
     // Switch-like structure and read options
-    int score = 0;
-    foreach (var quality in qualities)
+    static void cuestionar_cualidades(string[] qualities)
     {
-        Console.Write($"Es {quality}? (Y/N): ");
-        char prompt = Console.ReadLine()[0];
-        if (prompt == 'Y')
+        int score = 0;
+        foreach (var quality in qualities)
         {
-            score =+ 1;   
-        }    
+            Console.Write($"Es {quality}? (Y/N): ");
+            char prompt = Console.ReadLine()[0];
+            if (prompt == 'Y')
+            {
+                score =+ 1;   
+            }    
+        }
+        if(score<4){
+            Console.WriteLine("¡Apúrate o te lo ganan!");
+        }
+        else if (score<2)
+        {
+            Console.WriteLine("Maomeno");
+        }
+        else
+        {
+            Console.WriteLine("no te conviene");
+        }
     }
-    if(score<4){
-        Console.WriteLine("¡Apúrate o te lo ganan!");
-    }
-    else if (score<2)
-    {
-        Console.WriteLine("Maomeno");
-    }
-    else
-    {
-        Console.WriteLine("no te conviene");
-    }
+    
     //PREGUNTA 2
     //Se supone a partir de una respuesta simple de Y o N se va calificando si
     //es buen pretendiente o no a partir de eso (modifique la N por Y y los > por <
     // para que funcione bien )
 
     // Append to array
-    if (Console.ReadLine() == "Y")
-    {
-        Console.Write("Escribe la propiedad: ");
+    static void agregar_cualidades(ref string[] qualities){
         qualities = qualities.Append(Console.ReadLine()).ToArray();
     }
+    
     //PREGUNTA 3
     //El arreglo que se utiliza, se declaro a inicio del codigo y el uso
     //de funciones nos ayuda a la comprension de codigo, ademas de una
@@ -98,10 +101,22 @@ class Program
             flag = false;
         }
     }
-    Console.WriteLine("Quealities:");
-    foreach (var quality in qualities)
+    
+    static void imprimir_cualidades(string[] qualities)
     {
-        Console.WriteLine(quality);
+        Console.WriteLine("Cualidades:");
+        foreach (var quality in qualities)
+        {
+            Console.WriteLine(quality);
+        }
     }
+
+    static void calcular_score(string[] qualities)
+    {
+        int score = qualities.Length * 10; // Puntuación simple, 10 puntos por cada cualidad
+        Console.WriteLine($"Tu score es: {score}");
     }
+
+    }
+    
 }
