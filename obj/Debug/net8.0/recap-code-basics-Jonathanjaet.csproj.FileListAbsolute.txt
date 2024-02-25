@@ -1,0 +1,15 @@
+/home/jon_26/github-classroom/FcaInfoUNAM/recap-code-basics-Jonathanjaet/obj/Debug/net8.0/recap-code-basics-Jonathanjaet.GeneratedMSBuildEditorConfig.editorconfig
+/home/jon_26/github-classroom/FcaInfoUNAM/recap-code-basics-Jonathanjaet/obj/Debug/net8.0/recap-code-basics-Jonathanjaet.AssemblyInfoInputs.cache
+/home/jon_26/github-classroom/FcaInfoUNAM/recap-code-basics-Jonathanjaet/obj/Debug/net8.0/recap-code-basics-Jonathanjaet.AssemblyInfo.cs
+/home/jon_26/github-classroom/FcaInfoUNAM/recap-code-basics-Jonathanjaet/obj/Debug/net8.0/recap-code-basics-Jonathanjaet.csproj.CoreCompileInputs.cache
+/home/jon_26/github-classroom/FcaInfoUNAM/recap-code-basics-Jonathanjaet/obj/Debug/net8.0/recap-code-basics-Jonathanjaet.sourcelink.json
+/home/jon_26/github-classroom/FcaInfoUNAM/recap-code-basics-Jonathanjaet/bin/Debug/net8.0/recap-code-basics-Jonathanjaet
+/home/jon_26/github-classroom/FcaInfoUNAM/recap-code-basics-Jonathanjaet/bin/Debug/net8.0/recap-code-basics-Jonathanjaet.deps.json
+/home/jon_26/github-classroom/FcaInfoUNAM/recap-code-basics-Jonathanjaet/bin/Debug/net8.0/recap-code-basics-Jonathanjaet.runtimeconfig.json
+/home/jon_26/github-classroom/FcaInfoUNAM/recap-code-basics-Jonathanjaet/bin/Debug/net8.0/recap-code-basics-Jonathanjaet.dll
+/home/jon_26/github-classroom/FcaInfoUNAM/recap-code-basics-Jonathanjaet/bin/Debug/net8.0/recap-code-basics-Jonathanjaet.pdb
+/home/jon_26/github-classroom/FcaInfoUNAM/recap-code-basics-Jonathanjaet/obj/Debug/net8.0/recap-code-basics-Jonathanjaet.dll
+/home/jon_26/github-classroom/FcaInfoUNAM/recap-code-basics-Jonathanjaet/obj/Debug/net8.0/refint/recap-code-basics-Jonathanjaet.dll
+/home/jon_26/github-classroom/FcaInfoUNAM/recap-code-basics-Jonathanjaet/obj/Debug/net8.0/recap-code-basics-Jonathanjaet.pdb
+/home/jon_26/github-classroom/FcaInfoUNAM/recap-code-basics-Jonathanjaet/obj/Debug/net8.0/recap-code-basics-Jonathanjaet.genruntimeconfig.cache
+/home/jon_26/github-classroom/FcaInfoUNAM/recap-code-basics-Jonathanjaet/obj/Debug/net8.0/ref/recap-code-basics-Jonathanjaet.dll
