@@ -117,6 +117,32 @@ class Program
         Console.WriteLine($"Tu score es: {score}");
     }
 
+    static void dar_respuesta(int score)
+    {
+        Console.WriteLine($"Tu score es: {score}%");
+
+        if (score == 100)
+        {
+            Console.WriteLine("Es perfecto.");
+        }
+        else if (score >= 80)
+        {
+            Console.WriteLine("Aplícate o te lo ganan.");
+        }
+        else if (score >= 60)
+        {
+            Console.WriteLine("Maomeno.");
+        }
+        else if (score >= 40)
+        {
+            Console.WriteLine("No te lo recomiendo.");
+        }
+        else
+        {
+            Console.WriteLine("Corre y no mires atrás.");
+        }
     }
-    
+
+    }
+
 }
