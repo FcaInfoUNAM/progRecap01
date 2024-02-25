@@ -20,31 +20,40 @@ class Program
             }
         }
 
-        // For loop
-        // for (int i = 0; i < array.Length; i++)
-        // {
-        //     if (array[i] % 2 != 0)
-        //     {
-        //         Console.WriteLine($"{array[i]} no es par");
-        //     }
-        // }
+    //For loop
+        for (int i = 0; i < array.Length; i++)
+        {
+          if (array[i] % 2 != 0)
+          {
+            Console.WriteLine($"{array[i]} no es par");
+          }
+        }
 
-        // Switch-like structure and read options
-        // foreach (var quality in qualities)
-        // {
-        //     Console.Write($"Es {quality}? (Y/N): ");
-        //     char prompt = Console.ReadLine()[0];
-        //     if (prompt == 'N')
-        //     {
-        //         Console.WriteLine("no te conviene");
-        //         break;
-        //     }
-        //     if (prompt == 'Y')
-        //     {
-        //         Console.WriteLine("¡Apúrate o te lo ganan!");
-        //         break;
-        //     }
-        // }
+    // Switch-like structure and read options
+    int score = 0;
+    foreach (var quality in qualities)
+    {
+        Console.Write($"Es {quality}? (Y/N): ");
+        char prompt = Console.ReadLine()[0];
+        if (prompt == 'Y')
+        {
+            score =+ 1;   
+        }    
+    }
+    if(score<4){
+        Console.WriteLine("¡Apúrate o te lo ganan!");
+    }
+    else if (score<2)
+    {
+        Console.WriteLine("Maomeno");
+    }
+    else
+    {
+        Console.WriteLine("no te conviene");
+    }
+    //Se supone a partir de una respuesta simple de Y o N se va calificando si
+    //es buen pretendiente o no a partir de eso (modifique la N por Y y los > por <
+    // para que funcione bien )
 
         // Append to array
         // if (Console.ReadLine() == "Y")
