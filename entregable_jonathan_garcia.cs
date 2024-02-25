@@ -17,6 +17,11 @@ class Program
             if (i % 2 != 0)
             {
                 Console.WriteLine($"{i} no es par");
+                //PREGUNTA 1
+                //no existe f de format en el print pero existe el simbolo
+                //de pesos que es equivalente y da a entender la localizacion 
+                //de variables a lo largo de la impresion para facilitar 
+                //la lectura de codigo y variables a imprimir
             }
         }
 
@@ -51,43 +56,52 @@ class Program
     {
         Console.WriteLine("no te conviene");
     }
+    //PREGUNTA 2
     //Se supone a partir de una respuesta simple de Y o N se va calificando si
     //es buen pretendiente o no a partir de eso (modifique la N por Y y los > por <
     // para que funcione bien )
 
-        // Append to array
-        // if (Console.ReadLine() == "Y")
-        // {
-        //     Console.Write("Escribe la propiedad: ");
-        //     qualities = qualities.Append(Console.ReadLine()).ToArray();
-        // }
+    // Append to array
+    if (Console.ReadLine() == "Y")
+    {
+        Console.Write("Escribe la propiedad: ");
+        qualities = qualities.Append(Console.ReadLine()).ToArray();
+    }
+    //PREGUNTA 3
+    //El arreglo que se utiliza, se declaro a inicio del codigo y el uso
+    //de funciones nos ayuda a la comprension de codigo, ademas de una
+    //sencilla o mas directa forma de implementar codigo que ya se hizo
+    //o que nosotros creamos para su implementacion a lo largo de un
+    //codigo
+    //La variable flag tiene como objetivo cambiar el flujo del ciclo
+    //para saber si sigue o no el ciclo while
 
-        // Print array
-        // Console.WriteLine("Quealities:");
-        // foreach (var quality in qualities)
-        // {
-        //     Console.WriteLine(quality);
-        // }
+    // Print array
+    Console.WriteLine("Quealities:");
+    foreach (var quality in qualities)
+    {
+        Console.WriteLine(quality);
+    }
 
-        // While loop
-        // bool flag = true;
-        // while (flag)
-        // {
-        //     Console.Write("Deseas agregar más condiciones? (Y/N): ");
-        //     if (Console.ReadLine() == "Y")
-        //     {
-        //         Console.Write("Escribe la propiedad: ");
-        //         qualities = qualities.Append(Console.ReadLine()).ToArray();
-        //     }
-        //     else
-        //     {
-        //         flag = false;
-        //     }
-        // }
-        // Console.WriteLine("Quealities:");
-        // foreach (var quality in qualities)
-        // {
-        //     Console.WriteLine(quality);
-        // }
+    // While loop
+    bool flag = true;
+    while (flag)
+    {
+        Console.Write("Deseas agregar más condiciones? (Y/N): ");
+        if (Console.ReadLine() == "Y")
+        {
+            Console.Write("Escribe la propiedad: ");
+            qualities = qualities.Append(Console.ReadLine()).ToArray();
+        }
+        else
+        {
+            flag = false;
+        }
+    }
+    Console.WriteLine("Quealities:");
+    foreach (var quality in qualities)
+    {
+        Console.WriteLine(quality);
+    }
     }
 }
